@@ -1,0 +1,24 @@
+h1 {
+	color: #961010;
+	font-size: 48px;
+	text-align: center;
+}
+#slogan{
+	font-style: italic;
+	font-size: 22px;
+	text-align: center;
+}
+hr {
+	border-width: : 5px;
+}
+body {
+	font-family: helvetica;
+	background-color: #f6f6f6;
+    background-image: url("rovealleywall-resized.jpeg");	
+}
+p2 {
+	font-size: 16px;
+}
+li{
+	font-size: 16px
+}
