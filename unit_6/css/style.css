@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+h1 {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	color: #000;
+	font-family:'Walter Turncoat', cursive;
+	font-size: 140px;
+	text-align: center;
+}
+
+hr {
+	border:none;
+}
+
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+	margin: 100px;
+	text-align: center;
+}
+
+.navlinks{
+	color:#000;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 26px;
+	font-weight:200;
+	letter-spacing: 2px
+
+
+	padding: 10px 20px 10px 20px;
+
+	margin:0 20px;
+	border:none;
+	
+}
+
+.section{
+	background-color: FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 10px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 10px;
+	float: left;
+	width: 30%;
+	}
+
+#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 10px;
+	float: right;
+	width: 62%;
+}
+
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div{
+	background-color: FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #f6f6f6;	
+}
+
+img{
+	width: 100%;
+}
+
+p2 {
+	font-size: 22px;
+}
+
+li{
+	font-size: 22px
+}
+a{
+	color:inherit;
+	font-size: 18px;
+	text-decoration: none;
+}
