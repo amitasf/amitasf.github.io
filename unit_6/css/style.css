@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
 h1 {
 	background-color: #FFED74;
 	border: 1px black solid;
@@ -23,6 +29,10 @@ nav{
 	text-align: center;
 }
 
+main{
+	background-color: #FFF;
+}
+
 .navlinks{
 	color:#000;
 	font-family: 'Open Sans', sans-serif;
@@ -38,6 +48,13 @@ nav{
 	margin:0 20px;
 	border:none;
 	
+}
+
+#RaImage {
+	background-image: url(images/rovealleywall-resized.jpeg) no-repeat center center scroll;
+	background-size: cover;
+	height:750px;
+	padding: 20px 0;
 }
 
 .section{
@@ -74,11 +91,11 @@ nav{
 	border: 1px black solid;
 	padding: 10px;
 	float: right;
-	width: 62%;
+	width: 30%;
 }
 
 footer{
-	background-color: #FF957E;
+	background-image:url(images/rovealleywall-resized.jpeg) no-repeat center center scroll;
 	border: 1px black solid;
 	padding: 20px;
 }
@@ -91,8 +108,10 @@ div{
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: #f6f6f6;	
+	background-color: none;	
 }
+
+
 
 img{
 	width: 100%;
