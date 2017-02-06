@@ -131,6 +131,16 @@ a{
 	  .navlinks { 
 		display: block; 
 		text-align: center;
+		padding: 0 .50em .50em;
 }
-
+}
+@media only screen and (max-width: 1000px) {
+		#raimage {
+			width: 1021px;
+		}
+}
+@media only screen and (max-width: 1003px) {
+		main {
+			width: 100%;
+		}
 }
