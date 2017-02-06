@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+text-align: center;
+}
+
+hr {
+	border:none;
+}
+
+nav{
+	background-color: #fff;
+	border: 1px black solid;
+	padding: 10px;
+	margin:0px;
+	text-align: center;
+	
+}
+
+main{
+	background-color: #FFF;
+	
+}
+
+.navlinks{
+	color:#000;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 26px;
+	font-weight:200;
+	letter-spacing: 2px
+
+
+	padding: 10px 20px 10px 20px;
+
+	margin:0 20px;
+	border:none;
+}
+
+#raimage {
+	background: url(../images/rovealleywall-resized.jpeg) no-repeat center scroll;
+	background-size: cover;
+	height:750px;
+	padding: 20px 0;
+	width: 100%;
+}
+
+.section{
+	background-color: FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#two_column {
+	background-color: #FFF;
+	border: 1px black solid;
+	padding: 10px;
+}
+
+#left {
+	background-color: fff;
+	border: 1px black solid;
+	padding: 10px;
+	float: left;
+	width: 48%;
+}
+
+#right {
+	background-color: fff;
+	border: 1px black solid;
+	padding: 10px;
+	float: right;
+	width: 48%;
+}
+
+footer{
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div{
+	background-color: fff;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	background-color: none;	
+}
+
+img{
+	width: 100%;
+}
+
+p2 {
+	font-size: 22px;
+}
+
+ul {
+	padding: 20px;
+}
+
+li{
+	font-size: 22px
+}
+a{
+	color:inherit;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 585px) {
+
+	  .navlinks { 
+		display: block; 
+		text-align: center;
+}
+
+}
